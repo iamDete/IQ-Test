@@ -1,0 +1,105 @@
+.vh {
+    height: 100vh;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #704a9c;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(53, 42, 148, 0.5);
+}
+
+.navbar-dark .navbar-brand {
+    color: #5b2f75 !important;
+    font-weight: 600;
+}
+
+.hImage {
+    height: 90vh;
+}
+
+
+.display-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(39, 37, 155);
+}
+
+.btn-started {
+    background: rgb(89,83,185);
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(196deg, rgba(89,83,185,1) 0%, rgba(58,50,205,1) 100%);
+    -webkit-box-shadow: -1px 9px 38px 0px rgba(142,139,199,0.8);
+    -moz-box-shadow: -1px 9px 38px 0px rgba(142,139,199,0.8);
+    box-shadow: -1px 9px 38px 0px rgba(142,139,199,0.8);
+    border-radius: 15px;
+    border: 0;
+}
+
+.box {
+    height: 400px;
+}
+p{
+    overflow-wrap: break-word;
+}
+
+.bg-grey {
+    background-color: white;
+}
+
+.page-item {
+    margin-right: 10px;
+}
+
+
+
+.page-item:last-child .page-link {
+    margin-left: 0;
+    border-radius: 50rem;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-radius: 50rem;
+}
+
+.page-item.active .page-link {
+    background-color: rgb(89,83,185);
+    font-size: 0.8em;
+}
+
+.page-item .page-link {
+    text-align: center;
+    background-color: rgb(211, 209, 235);
+    color: rgb(79, 49, 107);
+    width: 3.5rem;
+    border-radius: 50rem;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.elevate-violet {
+    -webkit-box-shadow: 0px 3px 21px 0px rgba(110,105,214,0.63);
+    -moz-box-shadow: 0px 3px 21px 0px rgba(110,105,214,0.63);
+    box-shadow: 0px 3px 21px 0px rgba(110,105,214,0.63);
+}
+
+.page-item.visited .page-link {
+    background-color: rgb(135, 131, 216);
+}
+
+div#pagination-1 {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.img-ques {
+    height: 380px;
+}
